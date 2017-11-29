@@ -4,12 +4,16 @@
   "description": "Factorio Blueprints API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "DemiPixel <luke5227@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "prettyjson": "^1.2.1",
     "victor": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
